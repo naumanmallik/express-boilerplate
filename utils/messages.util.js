@@ -24,6 +24,7 @@ module.exports = {
   notVerified: 'Email not verified',
   alreadyVerified: 'Your Email is already verified',
   badRequest: 'Bad request',
+  noToken: 'No auth token',
   notPresent: 'Not present in the payload',
   invalidFormat: (service) => {
     return `Invalid ${service} Format`;
